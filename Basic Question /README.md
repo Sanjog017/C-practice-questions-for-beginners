@@ -79,4 +79,4 @@ Feel free to fork this repository and use it for your own learning journey. If y
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is open source.
