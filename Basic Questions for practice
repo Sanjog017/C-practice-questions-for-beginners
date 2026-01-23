@@ -1,4 +1,4 @@
-// program to print area and rectangle of circle.
+1) // program to print area and rectangle of circle.
 #include<stdio.h>
 void main()
 {
@@ -11,8 +11,7 @@ printf("The area of rectangle having lenght:%.2fcm\n breadth:%.2fcm\n is %.2fcm\
 }
 
 
-// program to calculate simple interest and amount 
-
+2) // program to calculate simple interest and amount 
 #include<stdio.h>
 void main()
 {
@@ -24,9 +23,8 @@ amt=p+si;
 printf("%d is the Simple interest of given\n principal:%d\n time:%d\n and rate:%d\n and Amount is %d",si,p,t,r,amt);
 }
 
-//program to print the volume of room and its surface area
- 
-            #include<stdio.h>
+3) // program to print the volume of room and its surface area
+#include<stdio.h>
 void main()
 {
 int l,w,h,vol,sa;
@@ -37,9 +35,7 @@ sa=2*(l*h+w*h)+2*(l*w);
 printf("%d is the volume\n %d is the surface area of room",vol,sa);
 }
 
-
-//program to print the area of 4 walls and cost of painting at rs 270 per meter square
-
+4) // program to print the area of 4 walls and cost of painting at rs 270 per meter square
 #include<stdio.h>
 #define rate 270
 void main()
@@ -52,9 +48,7 @@ cost=area*rate;
 printf("%.2fm\u00B2 is the area of 4 walls of room\n Rs.%.2f is the cost of painting",area,cost);
 }
 
-
-// program to print the area and perimeter of circle having any radius 
-
+5) // program to print the area and perimeter of circle having any radius 
 #include<stdio.h>
 #define PI 3.14
 void main()
@@ -68,21 +62,7 @@ perimeter= PI*r*r;
 printf("Area of given circle having radius %d cm is %.2f\n And perimeter is %.2f",r,area,perimeter);
 }
 
-
-
-
-
-
- 
-
-
-
-
-
-
-// program to print sum,difference,product and average of any two numbers
-
-
+6) // program to print sum,difference,product and average of any two number
 #include<stdio.h>
 void main()
 {
@@ -96,8 +76,7 @@ avg=sum/2;
 printf("Sum is %d\n Difference is %d\n Product is %d\n Average is %d\n Of the number %d and %d",sum,dif,prod,avg,a,b);
 }
 
-//program to print cube of given number 
-
+7) // program to print cube of given number 
 #include<stdio.h>
 void main()
 {
@@ -108,18 +87,7 @@ cube=l*l*l;
 printf("%d is the cube of number %d",cube,l);
 }
 
-
-
-
-
-
-
-
-
-
-
-8) //program to find out the square root of any number 
-
+8) // program to find out the square root of any number 
 #include<stdio.h>
 #include<math.h>
 void main()
@@ -137,8 +105,6 @@ printf("The number is negative\n Enter a valid positive number\n");
 }
 }
 
-
-
 9) // Program to print sum of cubes of two number
 #include<stdio.h>
 void main()
@@ -149,18 +115,6 @@ void main()
     sum = (l*l*l)+(b*b*b);
     printf("The sum of two given cubes %.2f and %.2f is %.2f",l,b,sum);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 10) // Program to print normal, integer and modular division of any  two number
 #include<stdio.h>
@@ -193,7 +147,6 @@ void main ()
      printf("As per my calculation, the conversion of %.0f%cC is %.1fF”,ce,f);
 }
 
-
 12) //Program to convert Fahrenheit into Celsius 
 #include<stdio.h>
 void main ()
@@ -204,7 +157,6 @@ void main ()
      c= (f-32)*5.0/9.0;
      printf("As per my calculation, the conversion of %.2f%cF is %.2f%CC”,f,c);
 }
-
 
 13) // Program to convert km into meter 
 #include<stdio.h>
@@ -239,17 +191,6 @@ void main()
     printf("The value of Rs.%.0f = %.2fusd",nr,usd);
 }
 
-
-
-
-
-
-
-
-
-
-
-
 16) // Program to convert seconds into hours, minuted and seconds
 #include<stdio.h>
 void main ()
@@ -263,11 +204,6 @@ void main ()
     printf("The conversion of %d Seconds is %d Hours, %d Minutes and %d Seconds",s,h,m,se);
 }
 
-
-
-
-
-
 17) // Program to convert Km into meter
               #include<stdio.h>
                 void main ()
@@ -278,8 +214,6 @@ void main ()
                        m=k*1000;
                 printf("The conversion of %.2fkm is %.2fm ",k,m);
               }
-
-
 
 18) // program to convert inches into feet and inches 
 #include<stdio.h>
@@ -309,7 +243,6 @@ void main ()
     printf("The conversion of %ddays is %d years,%d months,%d weeks and %d days",d,y,m,w,b);
 }
 
-
 20) // program to add last digit and second last digit of a given number 
 #include<stdio.h>
 void main ()
@@ -322,7 +255,6 @@ void main ()
       sum=l+s;
     printf("The last and second last digit of number %d is %d and %d and it's sum is %d",n,l,s,sum);
 }
-
 
 21) // program to calculate distance (s=ut+1/2at2)
 #include<stdio.h>
@@ -356,7 +288,6 @@ void main ()
     }
 }
 
-
 23) // program to input perpendicular and base of right angled triangle and compute hypotenuse
 #include<stdio.h>
 #include<math.h>
@@ -379,6 +310,7 @@ void main()
     v=u+a*t;
     printf("The velocity is %d ",v);
 }
+
 25) //program to find area of triangle given its three sides 
 #include<stdio.h>
 #include<math.h>
@@ -391,7 +323,6 @@ void main()
     area= s*(s-a)*(s-b)*(s-c);
        printf("The area of circle having sides %.2f cm,%.2fcm and %.2fcm is                                            %.2fcm",a,b,c,sqrt(area));
 }
-
 
 26) //program to solve quadratic equation given a,b and c
 #include <stdio.h>
@@ -412,15 +343,6 @@ void main()
       printf("The roots of the quadratic equation are %.2f and %.2f\n",x,y);
     }
 }
-
-
-
-
-
-
-
-
-
 
 27) // program to test whether the given number is completely divisible by 13 and 14 but not by 15 or not.
 #include <stdio.h>
@@ -456,14 +378,6 @@ void main ()
         printf("The %d is not divisible by 3 and 7",n);
     }
 }
-
-
-
-
-
-
-
-
 
 29) // program to test whether the given number is multiple of 5 or not 
 #include<stdio.h>
