@@ -14,7 +14,7 @@ These practice questions helped me develop a solid foundation in C programming. 
 
 ## Questions Included
 
-The repository includes 29 practice problems covering various aspects of C programming:
+The repository includes 26 practice problems covering various aspects of C programming:
 
 1. Calculate area and perimeter of a rectangle
 2. Calculate simple interest and total amount
@@ -25,31 +25,29 @@ The repository includes 29 practice problems covering various aspects of C progr
 7. Calculate cube of a given number
 8. Find square root of a number
 9. Calculate sum of cubes of two numbers
-10. Perform normal, integer, and modular division
+10. Perform normal, integer, and modular division of two numbers
 11. Convert Celsius to Fahrenheit
 12. Convert Fahrenheit to Celsius
 13. Convert kilometers to meters
 14. Convert Nepali currency to USD
 15. Convert seconds to hours, minutes, and seconds
-16. Convert kilometers to meters (duplicate)
-17. Convert inches to feet and inches
-18. Convert days to years, months, weeks, and days
-19. Add last digit and second last digit of a number
-20. Calculate distance using physics formula (s=ut+1/2at²)
-21. Calculate profit/loss from selling price and cost price
-22. Calculate hypotenuse of a right-angled triangle
-23. Calculate final velocity
-24. Calculate area of a triangle given three sides
-25. Solve quadratic equations
-26. Check divisibility conditions (by 13, 14, but not 15)
-27. Check if a number is divisible by 3 and 7
-28. Check if a number is a multiple of 5
+16. Convert kilometers to meters (duplicate of problem 13)
+17. Convert kilometers to meters (another duplicate of problem 13)
+18. Convert inches to feet and inches
+19. Convert days to years, months, weeks, and days
+20. Add last digit and second last digit of a number
+21. Calculate distance using physics formula (s=ut+1/2at²)
+22. Calculate profit/loss from selling price and cost price
+23. Calculate hypotenuse of a right-angled triangle
+24. Calculate final velocity
+25. Calculate area of triangle given its three sides
+26. Solve quadratic equation given coefficients a, b, and c
 
 ## How to Use
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/C-practice-questions-for-beginners.git
+   git clone https://github.com/Sanjog017/C-practice-questions-for-beginners.git
    ```
 
 2. Navigate to the directory containing the questions
@@ -71,7 +69,6 @@ Working through these problems will help you understand:
 - Variable declarations and data types
 - Input/output operations using scanf and printf
 - Arithmetic operations
-- Control structures (if-else statements)
 - Mathematical functions
 - Constants and macros
 - Basic algorithms

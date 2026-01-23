@@ -1,4 +1,4 @@
-1) // program to print area and rectangle of circle.
+1) // program to print area and perimeter of rectangle.
 #include<stdio.h>
 void main()
 {
@@ -7,10 +7,10 @@ printf("Enter the length and breadth of rectangle\n");
 scanf("%f%f",&l,&b);
 area= l*b;
 perimeter= 2*(l+b);
-printf("The area of rectangle having lenght:%.2fcm\n breadth:%.2fcm\n is %.2fcm\u00B2\n And perimeter is:%.2fcm",l,b,area,perimeter);
+printf("The area of rectangle having length:%.2fcm\n breadth:%.2fcm\n is %.2fcm\u00B2\n And perimeter is:%.2fcm",l,b,area,perimeter);
 }
 
-2) // program to calculate simple interest and amount 
+2) // program to calculate simple interest and amount
 #include<stdio.h>
 void main()
 {
@@ -47,7 +47,7 @@ cost=area*rate;
 printf("%.2fm\u00B2 is the area of 4 walls of room\n Rs.%.2f is the cost of painting",area,cost);
 }
 
-5) // program to print the area and perimeter of circle having any radius 
+5) // program to print the area and perimeter of circle having any radius
 #include<stdio.h>
 #define PI 3.14
 void main()
@@ -56,8 +56,8 @@ int r;
 float area,perimeter;
 printf("Enter the radius of circle\n");
 scanf("%d",&r);
-area= 2*PI*r;
-perimeter= PI*r*r;
+area= PI*r*r;
+perimeter= 2*PI*r;
 printf("Area of given circle having radius %d cm is %.2f\n And perimeter is %.2f",r,area,perimeter);
 }
 
@@ -75,7 +75,7 @@ avg=sum/2;
 printf("Sum is %d\n Difference is %d\n Product is %d\n Average is %d\n Of the number %d and %d",sum,dif,prod,avg,a,b);
 }
 
-7) // program to print cube of given number 
+7) // program to print cube of given number
 #include<stdio.h>
 void main()
 {
@@ -86,7 +86,7 @@ cube=l*l*l;
 printf("%d is the cube of number %d",cube,l);
 }
 
-8) // program to find out the square root of any number 
+8) // program to find out the square root of any number
 #include<stdio.h>
 #include<math.h>
 void main()
@@ -126,27 +126,28 @@ void main ()
     if (b==0)
     {
         printf("Oops! You can't divide any numbers by zero idiot!\n\n");
+        return;
     }
-    no= a/b;  
+    no= (float)a/b;
     in= a/b;
     mod=  a % b;
     printf("The normal division of given two number %d by %d  is %.2f\n\n",a,b,no);
     printf("The Integer division of given two number %d by %d is %d\n\n",a,b,in);
-    printf("The modular division of given two number %d and %.d is %d",a,b,mod);
+    printf("The modular division of given two number %d and %d is %d",a,b,mod);
 }
 
-11) // Program to convert celsius into fahrenheit 
+11) // Program to convert celsius into fahrenheit
 #include<stdio.h>
 void main ()
 {
     float ce,f;
-     printf("Enter Celsius to convert it into Farhenheit\n");
+     printf("Enter Celsius to convert it into Fahrenheit\n");
      scanf("%f",&ce);
      f=  ce*9/5+32;
-     printf("As per my calculation, the conversion of %.0f%cC is %.1fF”,ce,f);
+     printf("As per my calculation, the conversion of %.0f"Celsius is %.1fF\n",ce,f);
 }
 
-12) //Program to convert Fahrenheit into Celsius 
+12) //Program to convert Fahrenheit into Celsius
 #include<stdio.h>
 void main ()
 {
@@ -154,15 +155,15 @@ void main ()
      printf("Enter Fahrenheit to convert it into Celsius\n");
      scanf("%f",&f);
      c= (f-32)*5.0/9.0;
-     printf("As per my calculation, the conversion of %.2f%cF is %.2f%CC”,f,c);
+     printf("As per my calculation, the conversion of %.2f"F is %.2f"C\n",f,c);
 }
 
-13) // Program to convert km into meter 
+13) // Program to convert km into meter
 #include<stdio.h>
 void main()
 {
     float km,meter;
-    printf("Enter the distance(in km) to convert intro meter\n");
+    printf("Enter the distance(in km) to convert into meter\n");
     scanf("%f",&km);
     meter= km*1000;
     printf("The conversion of %.2fkm is %.2fm",km,meter);
@@ -179,42 +180,32 @@ void main()
     printf("The value of Rs.%.0f = %.2fusd",nr,usd);
 }
 
-15) // Program to convert nepali currency into usd
-#include<stdio.h>
-void main()
-{
-    float nr,usd;
-    printf("Enter nepali rupees\n");
-    scanf("%f",&nr);
-    usd= nr*0.0070;
-    printf("The value of Rs.%.0f = %.2fusd",nr,usd);
-}
-
-16) // Program to convert seconds into hours, minuted and seconds
+15) // Program to convert seconds into hours, minutes and seconds
 #include<stdio.h>
 void main ()
 {
-    int s,h,m,se;
+    int s,h,m,se,remaining;
     printf("Enter seconds\n");
     scanf("%d",&s);
     h=s/3600;
-    m=(s%3600)/60;
-    se=m%60;
+    remaining = s%3600;
+    m=remaining/60;
+    se=remaining%60;
     printf("The conversion of %d Seconds is %d Hours, %d Minutes and %d Seconds",s,h,m,se);
 }
 
-17) // Program to convert Km into meter
-              #include<stdio.h>
-                void main ()
-              {
-                       float k,m;
-                     printf("Enter Km for conversion\n");
-                       scanf("%f",&k);
-                       m=k*1000;
-                printf("The conversion of %.2fkm is %.2fm ",k,m);
-              }
+16) // Program to convert Km into meter
+#include<stdio.h>
+void main ()
+{
+    float k,m;
+    printf("Enter Km for conversion\n");
+    scanf("%f",&k);
+    m=k*1000;
+    printf("The conversion of %.2fkm is %.2fm ",k,m);
+}
 
-18) // program to convert inches into feet and inches 
+17) // program to convert inches into feet and inches
 #include<stdio.h>
 void main ()
 {
@@ -223,14 +214,14 @@ void main ()
     scanf("%d",&i);
       f=i/12;
       e=i%12;
-    printf("The conversion of %.dinch is %dfeet and %dinches",i,f,e);
+    printf("The conversion of %dinches is %dfeet and %dinches",i,f,e);
 }
 
-19) // program to convert days into years,months,weeks and days 
+18) // program to convert days into years,months,weeks and days
 #include<stdio.h>
 void main ()
 {
-    int d,y,yr,m,mr,w,b;
+    int d,y,yr,m,mr,w,wd;
     printf("Enter days for conversion\n");
     scanf("%d",&d);
      y=d/365;
@@ -238,11 +229,11 @@ void main ()
      m=yr/30;
      mr=yr%30;
      w=mr/7;
-     b=mr%7;
-    printf("The conversion of %ddays is %d years,%d months,%d weeks and %d days",d,y,m,w,b);
+     wd=mr%7;
+    printf("The conversion of %ddays is %d years,%d months,%d weeks and %d days",d,y,m,w,wd);
 }
 
-20) // program to add last digit and second last digit of a given number 
+19) // program to add last digit and second last digit of a given number
 #include<stdio.h>
 void main ()
 {
@@ -255,20 +246,20 @@ void main ()
     printf("The last and second last digit of number %d is %d and %d and it's sum is %d",n,l,s,sum);
 }
 
-21) // program to calculate distance (s=ut+1/2at2)
+20) // program to calculate distance (s=ut+1/2at^2)
 #include<stdio.h>
 void main()
 {
-    int u,t,a,s;
+    float u,t,a,s;
     printf("Enter the initial velocity, acceleration and time\n");
-    scanf("%d%d%d",&u,&a,&t);
-    s=u*t+1/2*a*t*2;
-    printf("The distance is %dkm per hour",s);
+    scanf("%f%f%f",&u,&a,&t);
+    s=u*t+0.5*a*t*t;
+    printf("The distance is %.2f units",s);
 }
 
-22) // programto find profit from given sp and cp 
+21) // program to find profit from given sp and cp
 #include<stdio.h>
-void main () 
+void main ()
 {
     int sp,cp;
     printf("Enter sp and cp\n");
@@ -281,66 +272,76 @@ void main ()
     {
         printf("There is loss\n");
     }
-    else 
+    else
     {
         printf("There is no profit nor loss\n");
     }
 }
 
-23) // program to input perpendicular and base of right angled triangle and compute hypotenuse
+22) // program to input perpendicular and base of right angled triangle and compute hypotenuse
 #include<stdio.h>
 #include<math.h>
 void main ()
 {
     float p,b,h;
-    printf("Enter perpendicular and base of right angled traingle\n");
+    printf("Enter perpendicular and base of right angled triangle\n");
     scanf("%f%f",&p,&b);
-    h= pow(p,2)+pow(b,2);
-    printf("The hypotenuse is %.2f",sqrt(h));
+    h= sqrt(p*p+b*b);
+    printf("The hypotenuse is %.2f",h);
 }
 
-24) // program to find final velocity 
+23) // program to find final velocity
 #include<stdio.h>
 void main()
 {
-    int u,a,t,v;
+    float u,a,t,v;
     printf("Enter initial velocity,acceleration and time\n");
-    scanf("%d%d%d",&u,&a,&t);
+    scanf("%f%f%f",&u,&a,&t);
     v=u+a*t;
-    printf("The velocity is %d ",v);
+    printf("The velocity is %.2f ",v);
 }
 
-25) //program to find area of triangle given its three sides 
+24) //program to find area of triangle given its three sides
 #include<stdio.h>
 #include<math.h>
 void main()
 {
     float a,b,c,s,area;
-    printf("Enter three sides of trangle\n");
+    printf("Enter three sides of triangle\n");
     scanf("%f%f%f",&a,&b,&c);
-    s= (a+b+c)/2; //finding semi perimeter 
-    area= s*(s-a)*(s-b)*(s-c);
-       printf("The area of circle having sides %.2f cm,%.2fcm and %.2fcm is                                            %.2fcm",a,b,c,sqrt(area));
+    s= (a+b+c)/2; //finding semi perimeter
+    area= sqrt(s*(s-a)*(s-b)*(s-c));
+    printf("The area of triangle having sides %.2f cm,%.2fcm and %.2fcm is %.2fcm\u00B2",a,b,c,area);
 }
 
-26) //program to solve quadratic equation given a,b and c
+25) //program to solve quadratic equation given a,b and c
 #include <stdio.h>
 #include <math.h>
-void main() 
+void main()
 {
-    float a, b, c, x, y, w;
+    float a, b, c, discriminant, x1, x2, realPart, imagPart;
     printf("Enter the values of a, b and c\n");
     scanf("%f%f%f",&a,&b,&c);
-    w =b*b-4*a*c;
-    if (w<0) {
-        printf("The roots are imaginary.\n");
-    } 
-    else 
-    {
-        x = (-b+sqrt(w))/(2 * a);
-        y = (-b-sqrt(w))/(2 * a);
-      printf("The roots of the quadratic equation are %.2f and %.2f\n",x,y);
+    
+    if (a == 0) {
+        printf("Not a quadratic equation (a cannot be zero)\n");
+        return;
+    }
+    
+    discriminant = b*b-4*a*c;
+    
+    if (discriminant > 0) {
+        x1 = (-b + sqrt(discriminant)) / (2*a);
+        x2 = (-b - sqrt(discriminant)) / (2*a);
+        printf("The roots of the quadratic equation are %.2f and %.2f\n", x1, x2);
+    }
+    else if (discriminant == 0) {
+        x1 = -b / (2*a);
+        printf("The root of the quadratic equation is %.2f\n", x1);
+    }
+    else {
+        realPart = -b / (2*a);
+        imagPart = sqrt(-discriminant) / (2*a);
+        printf("The roots are complex: %.2f+%.2fi and %.2f-%.2fi\n", realPart, imagPart, realPart, imagPart);
     }
 }
-
-
