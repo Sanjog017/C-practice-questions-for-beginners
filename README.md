@@ -1,5 +1,5 @@
 # C Practice Questions for Beginners
-Collection of C programming exercises 
+Collection of C programming exercises.
 This repository contains a collection of C programming exercises that I practiced while learning C. These questions cover fundamental concepts and help beginners get comfortable with basic programming constructs in C.
 
 ## About
