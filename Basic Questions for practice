@@ -10,7 +10,6 @@ perimeter= 2*(l+b);
 printf("The area of rectangle having lenght:%.2fcm\n breadth:%.2fcm\n is %.2fcm\u00B2\n And perimeter is:%.2fcm",l,b,area,perimeter);
 }
 
-
 2) // program to calculate simple interest and amount 
 #include<stdio.h>
 void main()
