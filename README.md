@@ -117,4 +117,4 @@ You can contribute by:
 
 ## License
 
-This project is open source, and can be used freely for learning.
+This project is open source, and with MIT licence.
