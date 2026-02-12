@@ -1,4 +1,4 @@
-27) // program to test whether the given number is completely divisible by 13 and 14 but not by 15 or not.
+// 1. Program to test whether the given number is completely divisible by 13 and 14 but not by 15 or not.
 #include <stdio.h>
 void main()
 {
@@ -9,14 +9,14 @@ void main()
     if (n % 13 == 0 && n % 14 == 0 && n % 15 != 0)
     {
         printf("%d is divisible by both 13 and 14, but not by 15.\n", n);
-    } 
+    }
     else
     {
         printf("%d does not satisfy the condition.\n", n);
     }
 }
 
-28) // program to test whether the given number is divisible by 3 and 7 or not 
+// 2. Program to test whether the given number is divisible by 3 and 7 or not
 #include<stdio.h>
 void main ()
 {
@@ -33,7 +33,7 @@ void main ()
     }
 }
 
-29) // program to test whether the given number is multiple of 5 or not 
+// 3. Program to test whether the given number is multiple of 5 or not
 #include<stdio.h>
 void main ()
 {
@@ -50,8 +50,7 @@ void main ()
     }
 }
 
-30) // To find whether the given number is a perfect square or not
-Logic
+// 4. Program to find whether the given number is a perfect square or not
 #include<stdio.h>
 #include<math.h>
 
@@ -70,4 +69,3 @@ void main()
         printf("The %d is not a perfect square number", n);
     }
 }
-

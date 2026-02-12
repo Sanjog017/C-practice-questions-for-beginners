@@ -225,7 +225,7 @@ void main ()
     printf("Enter days for conversion\n");
     scanf("%d",&d);
      y=d/365;
-     yr=d%365;
+     yr=d%3600;
      m=yr/30;
      mr=yr%30;
      w=mr/7;
