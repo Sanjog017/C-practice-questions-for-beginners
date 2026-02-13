@@ -78,7 +78,7 @@ void main ()
 else if (a==2)
 {
 	printf("Enter the Farhenheit=");
-	scanf("%d",fe);
+	scanf("%d",&fe);
 	ci=c(fe);
 	printf("The conversion of given farhenheit is %dC");
 }
