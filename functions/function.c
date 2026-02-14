@@ -98,5 +98,112 @@ int c(int fe)
 	return y;
 }
 
+4) //program to convert seconds into hours,minutes and second 
+	#include <stdio.h>
+     int hours(int);
+      int minutes(int);
+      int seconds(int);
+
+      void main()
+{
+    int total, h, m, s;
+
+    printf("Enter total seconds: ");
+    scanf("%d", &total);
+
+    h = hours(total);
+    m = minutes(total);
+    s = seconds(total);
+
+    printf("Hours = %d\n", h);
+    printf("Minutes = %d\n", m);
+    printf("Seconds = %d\n", s);
+}
+
+int hours(int t)
+{
+    return t / 3600;
+}
+
+int minutes(int t)
+{
+    return (t % 3600) / 60;
+}
+
+int seconds(int t)
+{
+    return (t % 3600) % 60;
+}
+
+5) //program to find sum of greatest and smallest element in an array using function
+	#include <stdio.h>
+int gr(int a[], int n);
+int sm(int a[], int n);
+
+void main()
+{
+    int a[10], n, i, g, s;
+
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+
+    printf("Enter elements:\n");
+    for(i = 0; i < n; i++)
+		{
+        scanf("%d", &a[i]);
+		}
+    g = gr(a, n);
+    s = sm(a, n);
+
+    printf("Greatest element = %d\nSmallest element = %d\n", g,s);
+}
+int gr(int a[], int n)
+{
+    int i, max;
+
+    max = a[0];
+
+    for(i = 1; i < n; i++)
+    {
+        if(a[i] > max)
+            max = a[i];
+    }
+    return max;
+}
+int sm(int a[], int n)
+{
+    int i, min;
+
+    min = a[0];
+
+    for(i = 1; i < n; i++)
+    {
+        if(a[i] < min)
+            min = a[i];
+    }
+    return min;
+}
+
+6) //program to swap values of two variables using function
+	#include <stdio.h>
+void swap(int, int);
+void main()
+{
+    int a, b;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+    printf("Before swapping: a = %d, b = %d\n", a, b);
+    swap(a, b); 
+}
+void swap(int p, int q) 
+{
+    int temp;
+    temp = p;
+    p = q;
+    q = temp;
+    printf("After swapping: a = %d, b = %d\n", p, q);
+}
+
+
 
 
