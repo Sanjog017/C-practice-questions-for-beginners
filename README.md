@@ -20,9 +20,8 @@ This repository is organized into different categories based on programming conc
 
 Each section contains:
 - Sample problems with solutions
-- Explanatory comments in the code
-- Progressive difficulty levels
+- Varieties of questions for practice
 
-Start with the [Basics](./basics/README.md) section if you're new to C programming, then gradually move to more advanced topics.
+Start with the [Basics](./basics/README.md) section if you're new to C programming, then move to more advanced topics.
 
-Happy Coding!
+Happy Coding:)!
