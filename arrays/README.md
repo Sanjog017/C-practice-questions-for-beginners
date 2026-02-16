@@ -1,12 +1,7 @@
 # Arrays
 
-This section will contain C programming exercises focusing on arrays, including one-dimensional and multi-dimensional arrays.
+This section will contain C programming exercises focusing on arrays, including one-dimensional and multi-dimensional arrays. 
 
-## Planned Topics
-
-- One-dimensional arrays
-- Two-dimensional arrays
-- Array traversal
-- Searching in arrays
-- Sorting algorithms
-- Operations on arrays
+## Questions Covered
+## 1-Dimensional Array (1d Array)
+## 2-Dimensional Array (2D Array)
