@@ -6,14 +6,13 @@ void main(){
 	scanf("%d",&n);
 	do{
 		if(a%2==0){
-			sum=sum+a;
+		sum=sum+a;
 
 		}
 		a++;
 	}while(a<=n);
 	printf("Sum is %d",sum);
 }
-
 
 // 2. Program to find sum of all odd numbers between 1 to n.
 #include<stdio.h>
@@ -31,7 +30,6 @@ void main(){
 	printf("Sum is %d",sum);
 }
 
-
 // 3. Program to print multiplication table of any number.
 #include<stdio.h>
 void main(){
@@ -45,7 +43,6 @@ void main(){
 
 
 }
-
 
 // 4. Program to count number of digits in a number.
 #include<stdio.h>
@@ -61,7 +58,6 @@ void main(){
 	printf("Your number is of %d digit",c);
 }
 
-
 // 5. Program to find first and last digit of a number.
 #include<stdio.h>
 void main(){
@@ -75,7 +71,6 @@ void main(){
 	}while(n>=10);
 	printf("first digit = %d \n last digit = %d",r1,r2);
 }
-
 
 // 6. Program to find sum of first and last digit of a number.
 #include<stdio.h>
@@ -91,7 +86,6 @@ void main(){
 	printf("Sum is %d",r1+r2);
 }
 
-
 // 7. Program to swap first and last digits of a number.
 #include<stdio.h>
 void main(){
@@ -105,7 +99,6 @@ void main(){
 	}while(n>=10);
 	// swapping value;
 
-
 	printf("Before swapping : \n");
 	printf("\t first digit = %d \n \tlast digit = %d\n",r1,r2);
 		printf("After swapping \n ");
@@ -114,9 +107,7 @@ void main(){
 		r1=r2;
 		r2=t;
 	printf("\tfirst digit = %d \n \tlast digit = %d\n",r1,r2);
-
 }
-
 
 // 8. Program to calculate sum of digits of a number.
 #include<stdio.h>
@@ -131,7 +122,6 @@ void main(){
 	}while(n!=0);
 	printf("Sum of digits is %d",sum);
 }
-
 
 // 9. Program to print all Prime numbers between 1 to n.
 #include<stdio.h>
@@ -155,7 +145,6 @@ void main(){
 
 	}
 
-
 // 10. Program to find sum of all prime numbers between 1 to n.
 #include<stdio.h>
 void main(){
@@ -164,7 +153,6 @@ void main(){
 	int sum=0,i,j,n,c;
 	printf("Enter a number : ");
 	scanf("%d",&n);
-
 	for(i=1;i<=n;i++){
 		c=0;
 		for(j=1;j<=i;j++){
@@ -180,7 +168,6 @@ void main(){
 
 }
 }
-
 
 // 11. Program to check whether a number is a Prime number or not.
 #include<stdio.h>
@@ -202,7 +189,6 @@ void main(){
 			printf("\n Not prime number");
 		}
 }
-
 
 // 12. Program to check whether a number is an Armstrong number or not.
 #include<stdio.h>
@@ -228,7 +214,6 @@ int main(){
 		arm=arm+(pow(r,c));
 	}
 
-
 if(arm==temp2)
 printf("Armstrong number ");
 else
@@ -236,7 +221,6 @@ printf("Not armstrong number ");
 
 	return 0;
 }
-
 
 // 13. Program to print all Armstrong numbers between 1 to n.
 #include<stdio.h>
