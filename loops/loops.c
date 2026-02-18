@@ -480,8 +480,8 @@ Proper divisors = 1, 2, 3
 So, 6 is a perfect number
 */
 #include<stdio.h>
-int main(){
-
+int main()
+{
     int i,j,sum=0,n,c;
     printf("Enter a number : ");
     scanf("%d",&n);
@@ -492,21 +492,17 @@ int main(){
                sum=sum+j;
             }
         }
-
         if(sum==2*i){
             printf("%d\t",i);
         }
     }
-
 return 0;
 }
-
 
 // 28. Program to check whether a number is a Strong number or not.
 #include<stdio.h>
 int main(){
 int c,n,p=1,i,r,sum=0;
-
 printf("Enter a number : ");
 scanf("%d",&n);
 c=n;
@@ -517,29 +513,24 @@ while(c!=0){
     {
         for(i=r;i>=1;i--){
             p=p*i;
-
         }
         sum=sum+p;
     }
 }
 if(sum==n){
     printf("Strong number ");
-
 }
 else
     printf("not strong number ");
 return 0;
 }
 
-
 // 29. Program to print all Strong numbers between 1 to n.
 #include<stdio.h>
 int main(){
 int c,n,p=1,i,x,r,sum=0;
-
 printf("Enter a number : ");
 scanf("%d",&n);
-
 for(x=1;x<=n;x++)
 {
     c=x;
@@ -563,7 +554,6 @@ if(sum==x){
 }
 return 0;
 }
-
 
 // 30. Program to print the following series: 1, 4, 9, 16 ..... upto 10th term.
 #include<stdio.h>
