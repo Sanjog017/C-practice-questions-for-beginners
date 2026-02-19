@@ -327,10 +327,9 @@ void main()
         printf("Not a quadratic equation (a cannot be zero)\n");
         return;
     }
-    
     discriminant = b*b-4*a*c;
-    
-    if (discriminant > 0) {
+    if (discriminant > 0) 
+{
         x1 = (-b + sqrt(discriminant)) / (2*a);
         x2 = (-b - sqrt(discriminant)) / (2*a);
         printf("The roots of the quadratic equation are %.2f and %.2f\n", x1, x2);
@@ -339,7 +338,8 @@ void main()
         x1 = -b / (2*a);
         printf("The root of the quadratic equation is %.2f\n", x1);
     }
-    else {
+    else // else part 
+ {
         realPart = -b / (2*a);
         imagPart = sqrt(-discriminant) / (2*a);
         printf("The roots are complex: %.2f+%.2fi and %.2f-%.2fi\n", realPart, imagPart, realPart, imagPart);
